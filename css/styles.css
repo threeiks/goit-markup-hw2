@@ -1,0 +1,70 @@
+:root {
+  /*
+  HTML emelents color
+  */
+  --brand-color: #2196f3;
+  --darker-txt-color: #212121;
+  --light-txt-color: #757575;
+  --header-white: #ffffff;
+  --light-line: #ececec;
+  --grey-bg: #2f303a;
+  --white-txt: #f5f4fa;
+  --bg-team: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.webstudio {
+  color: var(--brand-color);
+  font-family: "Raleway", sans-serif;
+}
+.spc {
+  color: var(--darker-txt-color);
+  font-weight: 500;
+  font-size: 14;
+}
+.contacts {
+  color: var(--light-txt-color);
+}
+.main {
+  color: white;
+  font-weight: 900px;
+  font-size: 44px;
+  line-height: 60px;
+}
+.headers {
+  color: #212121;
+}
+.text {
+  color: #757575;
+}
+.buttoncolor {
+  color: var(--white-txt);
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+.titles {
+  color: #757575;
+}
+
+.bgfirst {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.bgsec {
+  background-color: #f5f4fa;
+}
+.bgteam {
+  background-color: white;
+  width: 270px;
+  height: 368px;
+}
+.bgcontacts {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.address {
+  color: white;
+}
